@@ -8,19 +8,35 @@
     body {
         font-family:Arial, Helvetica, sans-serif;
         font-size:16px;
+        margin:0;
+        background-color:#eee;
     }
     td {
         border:1px solid #ccc;
         padding:5px;
+        background-color:#fff;
     }
     th {
         background-color:#ccc;
         padding:5px;
     }
+    .header {
+        padding:20px;
+        width:100%;
+        background-color:#000;
+        border-bottom: 10px solid #ccc;
+        margin-bottom:20px;
+    }
+    .header h1 {
+        color:#fff;
+    }
 </style>
 </head>
 <body>
+    <div class="header">
     <h1>About Kristin</h1>
+    </div>
+    <div style="float:left;padding:20px;background-color:#fff;margin:20px;">
     <img src="http://lorempixel.com/400/200/" alt="its my picture" />
     <p>This is information about me.</p>
     <p>This is more information about myself.</p>
@@ -29,6 +45,8 @@
         <li><a href="https://www.instagram.com">Instagram</a></li>
         <li>Facebook is dumb and I refuse</li>
     </ul>
+    </div>
+    <div style="float:left;padding:20px;margin:20px;">
     <table cellspacing="0" cellpadding="0">
         <thead>
         <tr>
@@ -55,5 +73,6 @@
             </tr>
         </tbody>
     </table>
+</div>
 </body>
 </html>
